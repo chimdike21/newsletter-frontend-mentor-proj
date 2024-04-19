@@ -54,5 +54,48 @@ body{
     color: var(--Charcoal-Grey);
     font-size: 45px;
     margin:3rem 2rem 1rem 0;
-    font-weight:700;
+    font-weight:700;        
+}
+
+p{
+    font-size:16px;
+    color:var(--Charcoal-Grey);
+    margin-left: -16px;
+    line-height:24px;
+}
+
+.updates{
+    width:400px;
+    text-align:left;
+    margin-left:15px;
+}
+
+.icon{
+    margin-right:10px !important;
+}
+
+li{
+    margin-left:-39px;
+    list-style: none;
+    white-space: nowrap;
+    padding:5px;
+}
+
+.img{
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#newsletter-form{
+    max-width:400px;
+    margin:0 auto;
+    padding:20px;
+}
+
+.form-label{
+    display:block;
+    right:2rem;
+    position:relative;
+    margin-bottom:5px;
+    font-weight:bold;
 }
