@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function(){
             signupSuccess.style.display='none'
         }
 
-        const signin= document.getElementById('signin')
-        if(signin){
-            signin.style.display='block'
+        const signUp= document.getElementById('signUp')
+        if(signUp){
+            signUp.style.display='block'
         }
     }
     document.getElementById('email').addEventListener('input', function(){
