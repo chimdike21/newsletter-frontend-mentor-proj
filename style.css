@@ -157,3 +157,26 @@ li{
     height:450px;
 
 }
+
+.success-msg p{
+    margin-left:3rem;
+    width:376px;
+}
+
+.success-msg span{
+    color:var(--Charcoal-Grey);
+    font-weight:700;
+}
+
+#success img{
+    max-width:50px;
+    height:auto;
+    margin-top:10%;
+    margin-left:10%;
+    margin-bottom:0.5rem;
+}
+
+.signup-success{
+    color: var(--Charcoal-Grey);
+    font-size:40px;
+}
