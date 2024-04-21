@@ -128,7 +128,7 @@ li{
     width:100%;
     position:relative;
     right:2.5rem;
-    background:var(--Charcoal-Grey);
+    background-color:var(--Charcoal-Grey);
     color:var(--White);
     border-radius:5px;
     cursor:pointer;
@@ -140,7 +140,7 @@ li{
 
 .submit-btn:hover{
     transition: all .3s ease-in-out;
-    background: linear-gradient(to right, #ff4272 0% #ffb369 100%);
+    background-color: linear-gradient(to right, #ff4272 0% #ffb369 100%);
 }
 
 #success{
