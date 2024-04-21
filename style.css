@@ -33,7 +33,7 @@ body{
     background-color: var(--White);
     position:absolute;
     border-radius:20px;
-    top:50%;
+    margin-top:25%;
     left:50%;
     transform: translate(-50%, -50%);
 
@@ -43,11 +43,9 @@ body{
     color:var(--Charcoal-Grey);
     height: 600px;
     width: 400px;
-    margin-left:60px;
     justify-content: center;
     align-items: center;
-
-
+    margin-left:60px;
 }
 
 .signup-head{
@@ -103,4 +101,59 @@ li{
 
 .error-alert{
     margin-top:-25px;
+    margin-left:11rem;
+    color:var(--tomato);
+    font-size:14px;
+    display:none;
+}
+
+.email-form{
+    width:100%;;
+    position:relative;
+    right:2.5rem;
+    margin-bottom:20px;
+    padding:1rem;
+    margin-bottom:20px;
+    border:1px solid var(--Grey);
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+.email-form:focus{
+    border:none;
+}
+
+.submit-btn{
+    width:100%;
+    position:relative;
+    right:2.5rem;
+    background:var(--Charcoal-Grey);
+    color:var(--White);
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+    padding: 1rem;
+    font-size:16px;
+    font-weight:700;
+}
+
+.submit-btn:hover{
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, #ff4272 0% #ffb369 100%);
+}
+
+#success{
+    display:none;
+    justify-content:center;
+    align-items:center;
+    background-color:hsl(0, 0%, 100%);
+    border-radius:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:450px;
+    height:450px;
+
 }
